@@ -20,9 +20,9 @@
   <tr>
     <th><label for="loginid">아이디</label></th>
     <td><input type="text" id="loginid" placeholder="아이디를 입력하세요.">
-     <span>영문 숫자조합 최소5자상 12자이하
+     <span>영문 숫자조합 최소5자상 12자이하</span>
        <input type="button" name="name" value="중복확인">
-     </span>
+
 
      </td>
   </tr>
@@ -123,15 +123,17 @@
           <option>29</option>
           <option>30</option>
           <option>31</option>
-        </select>일
+        </select><span>일</span>
 
      </td>
   </tr>
   <tr>
     <th><label for="">성별</label></th>
-    <td>여자<input type="radio" name="name" value="">
-        남자<input type="radio" name="name" value="">
-        그외<input type="radio" name="name" value="">
+    <td>
+        <label for="woman">여자</label><input type="radio" id="woman" name="name" value="woman">
+        <label for="man">남자</label><input type="radio"id="man" name="name" value="man">
+        <label for="jan">그외</label><input type="radio" id="jan"name="name" value="jan">
+
      </td>
   </tr>
   <tr>
@@ -174,26 +176,26 @@
   <tr>
     <th>활용 가능</th>
     <td>
-        html <input type="checkbox" name="name" value="">
-        css <input type="checkbox" name="name" value="">
-        javascrip <input type="checkbox" name="name" value="">
-        jquery<input type="checkbox" name="name" value="">
-        기타 <input type="checkbox" name="name" value="">
+        <label for="html">html</label> <input type="checkbox" id="html" name="name" value="">
+        <label for="css">css</label> <input type="checkbox" id="css"name="name" value="">
+        <label for="javascrit">javascrit</label> <input type="checkbox" id="javascrit"name="name" value="">
+        <label for="jquery">jquery</label><input type="checkbox" id="jquery"name="name" value="">
+        <label for="etc">기타</label> <input type="checkbox" id="etc"name="name" value="">
      </td>
   </tr>
   <tr>
     <th>여가 활동</th>
     <td>
-        운동 <input type="checkbox" name="name" value="">
-        게임 <input type="checkbox" name="name" value="">
-        영화 <input type="checkbox" name="name" value="">
-        음악 <input type="checkbox" name="name" value="">
-        기타 <input type="checkbox" name="name" value="">
+        <label for="exercise">운동</label> <input type="checkbox" id="exercise" name="name" value="">
+        <label for="game">게임</label> <input type="checkbox" id="game" name="name" value="">
+        <label for="movie">영화</label> <input type="checkbox" id="movie" name="name" value="">
+        <label for="music">음악</label> <input type="checkbox" id="music" name="name" value="">
+        <label for="etc2">기타</label> <input type="checkbox" id="etc2" name="name" value="">
      </td>
   </tr>
    <tr>
      <td ><label for="ilove">하고싶은말</label></td>
-     <td><textarea name="name" rows="8" cols="40" placeholder="5글자 이상 써주세요"></textarea></td>
+     <td><textarea name="name" rows="8" cols="40" id="ilove"placeholder="5글자 이상 써주세요"></textarea></td>
    </tr>
  </tbody>
 </table>
