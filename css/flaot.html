@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="우연희"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>float</title>
+      <style >
+
+        .트럼프{
+          border: 1px #000 solid;
+          height: 400px;
+          width:200px;
+          float:left;}
+
+        .힐러리{
+          border: 3px #0F0 solid;
+          border-style: dashed;
+          border-radius: 20px;
+          margin-left:210px;}
+
+
+        .부시{
+          height: 100px;
+          border: 1px #000 solid;}
+
+        .최순실{
+          width: 1000px;
+          border:3px #000 solid;
+          margin: 0 auto;}
+
+
+        .김재규{
+          height:100px; border: 3px #000 solid;
+          margin: 0 auto;
+          width: 1000px;}
+      </style>
+</head>
+<body>
+  <div class="최순실">
+   <div class="부시">
+     <h1 style="margin: 0 auto;">여니's Home</h1>
+   </div>
+   <div class="트럼프">
+       트럼프
+       <br /><hr />
+       -트럼프는 어떤 포르노에 출연을 했을까?<br /><hr />
+       -트럼프가 당선된 이유?<br /><hr />
+       -트럼프 공략 다시보기<br /><hr />
+       -트럼프는 맥도날드를 얼마나 자주먹나?<br /><hr />
+       여니's Home 홈으로가기
+   </div>
+
+   <div class="힐러리">
+    <h1 style="margin:0 auto;">우리집 회원가입</h1>
+       <form action="/회원가입input+table.html" method="post">
+         <fieldset>
+            <legend>보안</legend>
+    <table border="1" width="100%">
+      <caption>
+        <strong>아이디 정보</strong>
+      </caption>
+      <colgroup>
+         <col width="100"/>
+         <col width="400"/>
+      </colgroup>
+
+     <tbody>
+
+      <tr>
+        <th><label for="loginid">아이디</label></th>
+        <td><input type="text" id="loginid" placeholder="아이디를 입력하세요.">
+         <span>영문 숫자조합 최소5자상 12자이하</span>
+           <input type="button" name="name" value="중복확인">
+
+
+         </td>
+      </tr>
+      <tr>
+        <th><label for="password">비밀번호</label></th>
+        <td><input type="text" id="password" placehorder="비밀번호를 입력하세요.">
+           <span>영문,숫자,특수기호 포함 8자이상 24이하</span>
+         </td>
+      </tr>
+      <tr>
+        <th><label for="passwordcheck">비밀번호확인</label></th>
+        <td><input type="text" id="passwordcheck" >
+          <span>위 비밀번호와 일치하게 입력하세요</span>
+         </td>
+      </tr>
+    </table>
+     <br />
+    <table border="2" width="100%">
+        <caption><strong>개인정보</strong></caption>
+      <tr>
+        <th><label for="name">이름</label></th>
+        <td><input type="text" id="name"></td>
+      </tr>
+      <tr>
+        <th><label for="birthy">생년월일</label></th>
+        <td>
+                    <span>19세미만(1997년생 이후) 가입불가</span>
+           <select id="birthy">
+              <option>1997</option>
+              <option>1996</option>
+              <option>1995</option>
+              <option>1994</option>
+              <option>1993</option>
+              <option>1992</option>
+              <option>1991</option>
+              <option>1990</option>
+              <option>1989</option>
+              <option>1988</option>
+              <option>1987</option>
+              <option>1986</option>
+              <option>1985</option>
+              <option>1984</option>
+              <option>1983</option>
+              <option>1982</option>
+              <option>1981</option>
+              <option>1980</option>
+              <option>1979</option>
+              <option>1978</option>
+              <option>1977</option>
+              <option>1976</option>
+              <option>1975</option>
+              <option>1974</option>
+              <option>1973</option>
+           </select><span>년</span>
+              <label for="birthm"></label>
+            <select id="birthm">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+               <span>월</span>
+              <label for="birhtd"></label>
+            <select id="birhtd">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+              <span>일</span>
+
+         </td>
+      </tr>
+      <tr>
+        <th><label for="">성별</label></th>
+        <td>
+            <label for="woman">여자</label><input type="radio" id="woman" name="name" value="woman">
+            <label for="man">남자</label><input type="radio"id="man" name="name" value="man">
+            <label for="jan">그외</label><input type="radio" id="jan"name="name" value="jan">
+
+         </td>
+      </tr>
+      <tr>
+        <th><label for="email">이메일주소</label></th>
+        <td><input type="text" id="email">@
+          <select >
+            <option>gmail.com</option>
+            <option>hotmail.com</option>
+            <option>nate.com</option>
+            <option>naver.com</option>
+          </select>
+          <input type="button" name="name" value="중복확인">
+         </td>
+      </tr>
+      <tr>
+        <th><label for="addemail">추가이메일주소</label></th>
+        <td><input type="text" id="addemail">@
+          <select >
+            <option>gmail.com</option>
+            <option>hotmail.com</option>
+            <option>nate.com</option>
+            <option>naver.com</option>
+          </select>
+          <input type="button" name="name" value="중복확인">
+          <span><strong>※추가이메일은 위 이메일과 달른계정이여야합니다.</strong>
+                -추가이메일은 선택사항입니다. </span>
+         </td>
+      </tr>
+      <tr>
+        <th><label for="adress">주소</label></th>
+        <td><input type="text" id="adress">-<input type="text" id="adress">
+          <input type="button" name="name" value="우편번호 조회">
+            <br />
+          <input type="text" name="name" placeholder="00시00구00동">
+            <br />
+          <input type="text" name="name" placeholder="나머지 상세주소">
+
+         </td>
+      </tr>
+      <tr>
+        <th>활용 가능</th>
+        <td>
+            <label for="html">html</label> <input type="checkbox" id="html" name="name" value="">
+            <label for="css">css</label> <input type="checkbox" id="css"name="name" value="">
+            <label for="javascrit">javascrit</label> <input type="checkbox" id="javascrit"name="name" value="">
+            <label for="jquery">jquery</label><input type="checkbox" id="jquery"name="name" value="">
+            <label for="etc">기타</label> <input type="checkbox" id="etc"name="name" value="">
+         </td>
+      </tr>
+      <tr>
+        <th>여가 활동</th>
+        <td>
+            <label for="exercise">운동</label> <input type="checkbox" id="exercise" name="name" value="">
+            <label for="game">게임</label> <input type="checkbox" id="game" name="name" value="">
+            <label for="movie">영화</label> <input type="checkbox" id="movie" name="name" value="">
+            <label for="music">음악</label> <input type="checkbox" id="music" name="name" value="">
+            <label for="etc2">기타</label> <input type="checkbox" id="etc2" name="name" value="">
+         </td>
+      </tr>
+       <tr>
+         <th ><label for="ilove">하고싶은말</label></th>
+         <td><textarea name="name" rows="8" cols="40" id="ilove"placeholder="5글자 이상 써주세요"></textarea></td>
+       </tr>
+     </tbody>
+    </table>
+       </form>
+    <br />
+     <input type="button" value="취소">
+     <input type="reset" value="초기화">
+     <input type="submit" value="전송">
+    <br />
+    </fieldset>
+    <br />
+    </html>
+
+
+
+  </div>
+  </div>
+  <div class="김재규">
+    대표 이메일 : woo__yeon_@naver.com<br />
+    대표 번호 : 02)1004-1004<br />
+    여니's Home 위치
+    <span>
+     <address>
+      서울시 강동구 둔촌동 천호대로 1004-1004
+     </address>
+    </span>
+
+
+  </div>
+
+
+</body>
+</html>
+<!--float는 1.공중에 붕뜨다
+            2.플룻 적용 공간에  콘텐츠가 피해간다-->
