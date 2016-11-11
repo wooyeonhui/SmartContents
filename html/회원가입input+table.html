@@ -6,6 +6,9 @@
 </head>
 <body>
 <h1>우리집 회원가입</h1>
+   <form action="/회원가입input+table.html" method="post">
+     <fieldset>
+        <legend>보안</legend>
 <table border="1" width="100%">
   <caption>
     <strong>아이디 정보</strong>
@@ -47,9 +50,10 @@
     <td><input type="text" id="name"></td>
   </tr>
   <tr>
-    <th><label for="birthymd">생년월일</label></th>
+    <th><label for="birthy">생년월일</label></th>
     <td>
-       <select >
+                <span>19세미만(1997년생 이후) 가입불가</span>
+       <select id="birthy">
           <option>1997</option>
           <option>1996</option>
           <option>1995</option>
@@ -75,9 +79,9 @@
           <option>1975</option>
           <option>1974</option>
           <option>1973</option>
-       </select>
-          <span>19세미만(1997년생 이후) 가입불가</span>
-        <select >
+       </select><span>년</span>
+          <label for="birthm"></label>
+        <select id="birthm">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -90,8 +94,10 @@
           <option>10</option>
           <option>11</option>
           <option>12</option>
-        </select>월
-        <select >
+        </select>
+           <span>월</span>
+          <label for="birhtd"></label>
+        <select id="birhtd">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -123,7 +129,8 @@
           <option>29</option>
           <option>30</option>
           <option>31</option>
-        </select><span>일</span>
+        </select>
+          <span>일</span>
 
      </td>
   </tr>
@@ -194,15 +201,18 @@
      </td>
   </tr>
    <tr>
-     <td ><label for="ilove">하고싶은말</label></td>
+     <th ><label for="ilove">하고싶은말</label></th>
      <td><textarea name="name" rows="8" cols="40" id="ilove"placeholder="5글자 이상 써주세요"></textarea></td>
    </tr>
  </tbody>
 </table>
+   </form>
 <br />
  <input type="button" value="취소">
  <input type="reset" value="초기화">
  <input type="submit" value="전송">
+<br />
+</fieldset>
 <br />
 
 </body>
