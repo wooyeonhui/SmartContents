@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style >
+  .box {
+    width:400px;
+    height:400px;
+    border: 1px solid gray;
+    font-size: 12px;
+    /*font-style: italic;*/
+    font-family: cursive}
+    .box{letter-spacing:0.8px; word-spacing: 0px; word-break: keep-all;}
+    /*word-break: keep-all 문단단위로 줄넘김을 해준다. 읽기 편하게~*/
+    /*font-family: Dotum,'돋움',Helvetica,'Apple SD GothicNeo',sans-serif;*/
+  }
+    /*initial 상속 끊기 */
+    .box div{
+      width:400px;
+      color: red;
+      height:400px;
+      border: 1px solid gray;
+      font-family: fantasy;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <span>ppappappappappappappappappappappappappappa</span>
+    <p>ppappappappappappappappappappappappappappa</p>
+    <div>ppappappappappappappappappappappappappappa
+    ppappappappappappappappappappappappappappa</div>
+  </div>
+</body>
+</html>

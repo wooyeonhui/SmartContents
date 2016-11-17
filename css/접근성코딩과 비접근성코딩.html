@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>접근성비접근성 코딩</title>
+
+    <style>
+    *{margin:0; padding:0;}
+
+    .article{
+      width:513px;
+      height:132px;
+      border: 1px solid gray;
+    }
+    .article h2{
+      margin-left: 10px;
+    }
+    .thumbnail{
+      float:left;
+      width: 150px;
+      outline: inherit;
+      margin-left: 10px;
+    }
+    .thumbnail img{
+      width: 100%;
+    }
+    .right{
+      margin-left: 170px;
+      font-size: 13px;
+    }
+/*practice 2*/
+    .acces{
+      width: 513px;
+      height: 132px;
+      border: 1px solid gray
+    }
+    .acces ul li {
+      font-size: 12px;
+
+    }
+    .acces ul li.first{
+      font-size: 14px;
+      margin-left: 10px;
+    }
+    .acces ul li.first img{
+      float: left;
+      width: 150px;
+    }
+    .acces ul li.first>strong{
+      font-size: 20px;
+    }
+    .acces ul li {
+      margin-left: 160px;
+      font-size: 12px;
+    }
+
+
+
+    </style>
+
+</head>
+<body>
+  <h1>NEWS KOREA</h1>
+  <div class="article">
+    <h2><a href="">삼성, 美전장기업 하만 9조3000억에 인수</a></h2>
+      <div class="thumbnail"><img src="http://static.naver.net/newsstand/2016/1115/etnews/102250/001.jpg" alt="" /></div>
+      <div class="right">
+         <p>삼성전자가 미국 전장 전문 기업 하만을 인수했다. 신성장 분야인 자동차 전장 사업을 대폭 강화하기 위한 조치다. 삼성전자는 미래 자동차 시장에서 퀀텀 점프를 노린다....</p>
+           <ul>
+             <li>[해설]삼성전자 `스마트 카` 주도권 의지 드러냈다</li>
+             <li>[해설]삼성전자 `스마트 카` 주도권 의지 드러냈다</li>
+           </ul>
+      </div>
+          <!-- right 닫음 -->
+  </div>
+
+  <h1>NEWS KOREA2</h1>
+  <div class="acces">
+     <ul>
+       <li class="first"><strong>삼성, 美전장기업 하만 9조3000억에 인수</strong>
+         <span><img src="http://static.naver.net/newsstand/2016/1115/etnews/102250/001.jpg"></span>
+         <p>
+           삼성전자가 미국 전장 전문 기업 하만을 인수했다. 신성장 분야인 자동차 전장 사업을 대폭 강화하기 위한 조치다. 삼성전자는 미래 자동차 시장에서 퀀텀 점프를 노린다....
+        </p>
+       </li>
+       <li><p>[해설]삼성전자 `스마트 카` 주도권 의지 드러냈다</p></li>
+       <li><p>[해설]삼성전자 `스마트 카` 주도권 의지 드러냈다</p></li>
+     </ul>
+
+  </div>
+</body>
+</html>
