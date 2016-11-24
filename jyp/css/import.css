@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-image: url("http://wondergirls.jype.com/images/bg-pc.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center 0;
+}
+ul {
+  list-style: none;
+}
+header {
+  margin: 0;
+  height: 100px;
+  background-color: rgba(251, 230, 164, 0.65);
+  padding: 0;
+  box-shadow: 0 2px 10px gray;
+}
+header h1 {
+  background-image: url("http://wondergirls.jype.com/images/logo-s.png");
+  margin: 0
+    width:104px;
+  height: 52px;
+  float: left;
+}
+header nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+}
+header nav li {
+  display: block;
+  margin-top: -16px;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+}
+header nav li:hover {
+  height: 96px;
+  border-top: 4px solid #F18195;
+  font-weight: normal;
+  color: #FED569;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: 0.2s;
+  cursor: pointer;
+}
+header nav li a {
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 18px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #F18195;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+footer h2 {
+  margin: 0;
+  float: left;
+}
+footer nav {
+  margin: 0;
+  height: 57px;
+}
+footer nav ul {
+  margin: 0;
+  float: right;
+}
+li:hover {
+  background-color: rgba(225, 225, 225, 0.8);
+}

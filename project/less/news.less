@@ -1,0 +1,102 @@
+body{margin:0; padding:0}
+@tcolor:gray;
+@top-btn-height:22px;
+@imgsplit-bg:"http://static.naver.net/newsstand/img/20140716/sp_nwstd.png";
+.outline(){
+  outline: 1px solid powderblue;
+}
+
+.bgpos(@x:0,@y:0,@bg){
+    background-position: @x @y;
+    background-image:url(@bg);
+}
+.wrap{
+  margin: 0 auto;
+  margin-top:50px;
+  width:900px;
+  height:540px;
+  .outline();
+     .top{
+       margin: 0 30px 10px;
+       height:100px;
+       .outline();
+       .log{
+         float:left;
+         margin-top: 10px;
+         .outline();
+       }
+       .banner{
+         float: right;
+         margin-top: -70px;
+       }
+       .btn-list{
+         margin-top: -10px;
+         clear: left;
+          button{
+            height:@top-btn-height;}
+       }
+       .btn-follow{
+         width: 66px;
+         .bgpos(-187px,-199px,@imgsplit-bg)
+       }
+       .btn-user{
+         width: 106px;
+         .bgpos(-293px,-174px,@imgsplit-bg)
+       }
+       .btn-sns{
+         width: 28px;
+         .bgpos(-500px,-270px,@imgsplit-bg)
+       }
+     }
+     //헤드라인//
+     .bottom{
+       height:380px;
+       margin: 0 30px;
+       position:relative;
+       .outline();
+          .left{
+            width:513px;
+            height:386px;
+            .outline();
+             .l-up{
+               height:130px;
+               .l-up h2{
+                 font-size:20px;
+                 color:#D71457;
+                 margin-top:-10px;
+               }
+               .l-upi{
+                 float: left;
+                 width:160px;
+                 height:94px;
+                 overflow: hidden;
+               }
+               .l-upi img{
+                 width:160px;
+                 height:94px;
+               }
+               .l-up p{
+                 display: inline-block;
+                 margin-left: 0px;
+               }
+               .l-up1{
+                 font-size:10px;
+                 color:#ccc;
+               }
+               .l-up2, .l-up3{
+                 font-size: 10px;
+                 font-weight: bold;
+               }
+
+             }
+          }
+          .right{
+            width:307px;
+            height:375px;
+            position: absolute;
+            right:0;
+            bottom:0;
+            .outline();
+          }
+     }
+}

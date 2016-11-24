@@ -1,0 +1,84 @@
+
+html,body{height:100%}
+
+
+body{
+    margin:0;
+    background-image: url(@pcBg);
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center 0;
+
+}
+
+ul{list-style: none;}
+li{}
+
+header{
+  margin: 0;
+  height:100px; background-color:rgba(251,230,164,0.65);
+  padding:0;
+  box-shadow: 0 2px 10px gray;
+  h1{
+    background-image: url(@logo);
+    margin: 0
+    width:104px;height:52px;
+    float:left;
+  }
+  nav{float: right;
+      margin: 0;
+      padding: 0;
+      height: 100px;
+    li{
+      display: block;
+      margin-top:-16px;
+      height:100px;
+      float:left;
+      line-height:100px;
+      &:hover{
+        height:96px;
+        border-top:4px solid @text-color;
+        font-weight: normal;
+        color:@base-color;
+        background-color:rgba(255,255,255,.9);
+        transition: 0.2s;
+        cursor: pointer;
+      }
+      a{
+        margin: 0;
+        font-weight: normal;
+        text-decoration:none;
+        font-family: 'Oswald',sans-serif;
+        padding:0 18px;
+        font-size: 16px;
+        font-weight: normal;
+        color:@text-color;
+      }
+
+    }
+  }
+}
+footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgba(0,0,0,0.7);
+  h2{
+   margin: 0;
+   float: left;
+  }
+  nav{
+    margin:0;
+
+    height:57px;
+    ul{
+      margin: 0;
+      float: right;
+    }
+  }
+}
+li:hover {
+  background-color:rgba(225,225,225,0.8)
+}

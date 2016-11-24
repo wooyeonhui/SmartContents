@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+*{margin:0; padding:0;}
+
+html{width: 100%;
+}
+
+.wrapper{
+  height:100%;
+  outline: 1px solid gray;
+  overflow: hidden;
+}
+
+video{
+  position:absolute;
+  right:50%;
+}
+.text{
+  outline: 1px solid gray;
+  display: table;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+.text h1, p{
+color:white;
+display: table-cell;
+vertical-align: middle;
+}
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+   <video height="100%" autoplay loop>
+           <source src="../movie/배경.mp4" type="video/mp4">
+   </video>
+
+      <div class="text">
+       <h1>Seoul City People</h1>
+        <p>Beautyful Night See</p>
+      </div>
+  </div>
+</body>
+<!--
+    <style>
+        *{margin:0; padding:0;}
+        body,html{height:100%;}
+        .intro{position:relative; border:1px #F00 solid; height:100%; overflow:hidden;}
+        .wrap{position:absolute; top:0; left:0; border:1px #00F solid; width:100%;
+            color:#FFF;
+            text-align:center;
+            display:table;
+            height:100%;
+         }
+         h1{
+             display:table-cell;
+             vertical-align: middle;
+             border:1px #F00 solid;
+         }
+        .box{position:absolute; width:500px; height:500px; background-color:rgba(0,0,0,.8);
+            right:-250px;
+            bottom:-250px;
+            transform:rotate(45deg);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="intro">
+        <video width="100%" autoplay loop>
+          <source src="../video/Glass.mp4" type="video/mp4">
+        </video>
+        <div class="box"></div>
+        <div class="wrap">
+            <h1>Hello Video<br/> hi~</h1>
+        </div>
+    </div>
+</body> -->
+</html>

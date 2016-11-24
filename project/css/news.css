@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 900px;
+  height: 540px;
+  outline: 1px solid powderblue;
+}
+.wrap .top {
+  margin: 0 30px 10px;
+  height: 100px;
+  outline: 1px solid powderblue;
+}
+.wrap .top .log {
+  float: left;
+  margin-top: 10px;
+  outline: 1px solid powderblue;
+}
+.wrap .top .banner {
+  float: right;
+  margin-top: -70px;
+}
+.wrap .top .btn-list {
+  margin-top: -10px;
+  clear: left;
+}
+.wrap .top .btn-list button {
+  height: 22px;
+}
+.wrap .top .btn-follow {
+  width: 66px;
+  background-position: -187px -199px;
+  background-image: url("http://static.naver.net/newsstand/img/20140716/sp_nwstd.png");
+}
+.wrap .top .btn-user {
+  width: 106px;
+  background-position: -293px -174px;
+  background-image: url("http://static.naver.net/newsstand/img/20140716/sp_nwstd.png");
+}
+.wrap .top .btn-sns {
+  width: 28px;
+  background-position: -500px -270px;
+  background-image: url("http://static.naver.net/newsstand/img/20140716/sp_nwstd.png");
+}
+.wrap .bottom {
+  height: 380px;
+  margin: 0 30px;
+  position: relative;
+  outline: 1px solid powderblue;
+}
+.wrap .bottom .left {
+  width: 513px;
+  height: 386px;
+  outline: 1px solid powderblue;
+}
+.wrap .bottom .left .l-up {
+  height: 130px;
+}
+.wrap .bottom .left .l-up .l-up h2 {
+  font-size: 20px;
+  color: #D71457;
+  margin-top: -10px;
+}
+.wrap .bottom .left .l-up .l-upi {
+  float: left;
+  width: 160px;
+  height: 94px;
+  overflow: hidden;
+}
+.wrap .bottom .left .l-up .l-upi img {
+  width: 160px;
+  height: 94px;
+}
+.wrap .bottom .left .l-up .l-up p {
+  display: inline-block;
+  margin-left: 0px;
+}
+.wrap .bottom .left .l-up .l-up1 {
+  font-size: 10px;
+  color: #ccc;
+}
+.wrap .bottom .left .l-up .l-up2,
+.wrap .bottom .left .l-up .l-up3 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.wrap .bottom .right {
+  width: 307px;
+  height: 375px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  outline: 1px solid powderblue;
+}
