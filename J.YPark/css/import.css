@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  marginpadding: 0;
+}
+body {
+  background-image: url("../img/9k=.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ul {
+  list-style: none;
+}
