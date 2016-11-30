@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  outline: 1px solid gray;
+}
+.header {
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  position: relative;
+}
+.header .top {
+  width: 100%;
+  height: 100px;
+}
+.header .top .cjes,
+.header .top .menu,
+.header .top .lang {
+  display: inline-block;
+}
+.header .top .cjes {
+  position: absolute;
+  left: 40px;
+  top: 25px;
+}
+.header .top .cjes img {
+  width: 122px;
+  height: 50px;
+}
+.header .top .menu ul {
+  list-style: none;
+}
+.header .top .lang {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+.header .top .lang ul {
+  list-style: none;
+}
+.header .top .lang ul li {
+  display: inline-block;
+}
