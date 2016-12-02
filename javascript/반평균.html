@@ -1,0 +1,70 @@
+<!--
+  // 0.총학생의 수를 입력한다.
+  // 1.학생이름을 입력한다
+  // 2.학생의 점수를 입력한다
+  // 3.전체 학생의 편균점수를 낸다.
+  // 4.평균점수의 등급을 낸다.
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript">
+    var nameArr = [];
+    var scoreArr = [];
+
+    var max_user = prompt('학생의 수를 입력해주세요')
+    var check = confirm(max_user+"인원이 맞습니까")
+
+    if(check){
+
+      for(var i=0;i<max_user;i++){
+        var name = prompt('이름을 입력하세요');
+        var score = prompt('점수를 임력하세요');
+        nameArr.unshift(name);
+        scoreArr.unshift(score);
+        console.log(nameArr)
+        console.log(scoreArr)
+        }
+        document.write(nameArr + '<br />' + scoreArr)
+        var nexts = confirm("입력정보가 맞습니까?")
+
+
+
+        if(nexts){
+          console.log('반 전체 평균을 산출합니다.')
+
+          var Tscore =0;
+
+          // var scoreArr =Number(scoreArr);
+
+          // for(j=0;j<max_user;j++){
+          for(var j=0 in scoreArr){
+            Tscore += Number(scoreArr[j]);
+            console.log ("개인점수"+scoreArr[j])
+
+          }
+          console.log("전체점수"+Tscore)
+          var average =Tscore/scoreArr;
+          console.log(average)
+          document.write('반전체 평균은 '+average+'점입니다.')
+
+        }else if(!nexts){
+          alert('프로그램을 종료합니다')
+        }
+
+        console.log("띵띵"+nameArr,scoreArr)
+      }else if(!check){
+        console.log('re')
+    }
+    // unshift:배열의 0에 추가된다
+    // push:배열의 끝에 추가된다.
+  </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<script type="text/javascript">
+    var numberscope = 100;
+    var randomnum = Math.random() * numberscope;
+    var ranNum = Math.floor(randomnum);
+    var count = prompt('Up&Down Game 카운트 숫자를 써줏세용')
+
+
+
+    for(i=0;i < count;i++){
+       var entry = prompt((i+1)+' 번째 숫자를 넣으세요');
+       if(ranNum > entry){
+         alert('Up!')
+       }else if(ranNum < entry){
+         alert('Down!')
+       }else if(ranNum == entry){
+         alert('congratuation!!'+ranNum)
+         break;
+       }
+    }
+   alert(ranNum)
+
+
+</script>

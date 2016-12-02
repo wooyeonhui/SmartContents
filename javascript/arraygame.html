@@ -1,26 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <script type="text/javascript">
-    var user=prompt('이름을 임력해주세요')
-    alert('어디한번 "+user+"만들어볼까?')
+<script type="text/javascript">
 
-    var arr =[
-    ["이쁨","못생김","잘생김","힘","연약함","병신력"],
-    ["한숟깔","한방울","한가득","으어오어어어어어","헉..","드음뿍"]
-          ]
-console.log(arr)
-    var ran1 = Math.floor(Math.random() * arr[0].length);
-    var ran2 = Math.floor(Math.random() * arr[1].length);
 
-  console.log(arr[0].length);
+//Math.random()// 난수/실수 형태  생성
+//Math.floor(Math.random() * 100)// 절삭
 
-    document.write(arr[0][ran1] arr[1][ran2])
-  </script>
-  <title>Document</title>
-</head>
-<body>
+//random * 100
 
-</body>
-</html>
+    // var random = Math.random()
+
+    // var random_number = Math.floor(random * 100)
+
+    // console.log(Math.floor(Math.random() * 100))
+
+    // console.log(random_number)
+
+
+
+
+
+    var text = [
+
+     ["일단은","음....","어디보자","우어어어어","호오오오"],
+     ["어여쁨","높은지능","낮은지능","먹성","귀여움","썩은인성","바른인성","D라인","O라인","S라인","빚","돈"],
+     ["한숟깔","한방울","한가득","우오오오어ㅓㅇㄴ이ㅏ러ㅣㅏㅓㅎ","헉....","깜빡했다..","덜넣음"]
+   ]
+    // var ran1 = Math.floor(Math.random() * text1.length);
+    // var ran2 = Math.floor(Math.random() * text2.length);
+    // var ran3 = Math.floor(Math.random() * text3.length);
+    //
+     //document.write(text1[ran1]+" "+text2[ran2]+" "+text3[ran3])
+    //
+    // for(var i=0;i<text1.length;i++){
+    //
+    // console.log(Math.floor(Math.random()*text[i].length))
+    // }
+    // console.log("랜덤값은:"+i)
+    //
+    var html = "";
+
+        for(i=0;i<text.length;i++){
+            var randoms = Math.floor(Math.random() * text[i].length);
+            html += text[i][randoms]+" ";
+        }
+        for(var i=0 in text){
+          var randoms = Math.floor(Math.random()*text[i].length);
+          html += text[i][randoms]+" ";
+        }
+       var i=0
+       while(i<10){
+         var randoms = Math.floor(Math.random()*text[i].length);
+         html += text[i][randoms]+" ";
+        i++
+       }
+
+        document.write(html)
+
+// for
+// forin
+// ex) var aa = [1,2,3,4,5,6,7]
+// for(var i=o;i<aa.length;i++){
+//
+// }
+// =
+// for(vari=0 in aa){
+//
+// }
+// while
+// dowhile
+
+
+
+
+</script>
