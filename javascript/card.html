@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript">
+
+  var user;
+  var cardDeck = [];
+  var cardModel = ['♠','♣','♥','◆'];
+  var users = [];
+
+
+
+  function addUser(){
+    user = prompt('사용자수를 입력하세요')
+  }
+  function userPick(){
+  for (i=0 in user){
+    function cardSelector(){
+      var Rcard = Math.floor(Math.random() * cardDeck.length);
+      users.unshift(cardDeck[Rcard]);
+      cardDeck.splice(Rcard,1);
+    }
+    }
+  }
+   function cardMake(){
+     cardDeck=[];
+     for(i=0;i<4;i++){
+       for(j=1;j<=13;j++){
+        //  switch(j){
+        //    case 1 : cardDeck.push(cardModel[i]+"A");
+        //      break;
+        //      case 11 : cardDeck.push(cardModel[i]+"J");
+        //        break;
+        //      case 12 : cardDeck.push(cardModel[i]+"Q");
+        //       break;
+        //      case 13 : cardDeck.push(cardModel[i]+"K");
+        //       break;
+        //      default : cardDeck.push(cardModel[i]+j);
+        //       break;
+        //  }
+         if(j==1) cardDeck.push(cardModel[i]+"A");
+         else if(j==11) cardDeck.push(cardModel[i]+"J");
+         else if(j==11) cardDeck.push(cardModel[i]+"Q");
+         else if(j==11) cardDeck.push(cardModel[i]+"K");
+         else cardDeck.push(cardModel[i]+j);
+       }
+     }
+   }
+
+  function checkvalue(){
+    console.log('현재등록된 사용자수:'+user)
+    console.log(cardDeck);
+    console.log(users);
+  }
+
+
+
+  </script>
+
+  <title>Document</title>
+</head>
+<body>
+  <button type="button" onclick="addUser()">게임 참여자 입력</button>
+  <button type="button" onclick="cardMake()">카드 만들기</button>
+  <button type="button" onclick="checkvalue()">데이터 확인</button>
+  <button type="button" onclick="userPick()">카드나눠 주기</button>
+
+</body>
+</html>
