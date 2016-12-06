@@ -1,0 +1,80 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
+  var shape = ['♠','♣','♥','◆'];
+  var cardDeck = [];
+  var RcardP =[];
+  //카드 세팅
+   function cardSet(){
+       cardDeck=[];
+     for(i=0;i<4;i++){
+     for(j=1;j<=13;j++){
+       if(j === 1) cardDeck.push(shape[i]+"A");
+       else if(j === 11) cardDeck.push(shape[i]+'J');
+       else if(j === 12) cardDeck.push(shape[i]+'Q');
+       else if(j === 13) cardDeck.push(shape[i]+'K');
+       else cardDeck.push(shape[i]+j);
+     }
+   }console.log(cardDeck);//카드52장 세팅
+  }
+
+  //카드 랜덤 4장!!
+  function randomP(){
+    var Rcard = Math.floor(Math.random() * cardDeck.length);//cardDeck에서 배열랜덤수
+    RcardP.push(cardDeck[Rcard]); cardDeck.splice(Rcard,1);//Rcard에 넣고 전체카드에서 빼기
+}console.log(RcardP);
+  </script>
+  <title>Document</title>
+</head>
+<body>
+  <button type="button" onclick="cardSet()">카드 세팅</button>
+   <!-- <button type="button" onclick="randomp()">게임 시작</button> -->
+
+<!-- </body>
+</html> --> -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+    //카드 정리
+        var card = {
+            card_number:13,
+            card_deck:[],
+            gameSetting:[],
+            shape:['♠','♣','♥','◆'],
+            // theorem:function(){
+            //     card_deck=[];
+            //     for(var i=0 in this.shape){
+            //         for(var j=1;j <= this.card_number; j++){
+            //             if(j == 1)  card_deck.push(this.shape[i]+"A");
+            //             else if (j == 11) card_deck.push(this.shape[i]+"J");
+            //             else if (j == 12) card_deck.push(this.shape[i]+"Q");
+            //             else if (j == 13) card_deck.push(this.shape[i]+"K");
+            //             else card_deck.push(this.shape[i]+j);
+            //         }
+            //     }console.log(card_deck)
+            // },
+          gameSet:function(){
+            for(k=1;k<=4;k++){
+              var setR =  Math.floor(Math.random() * this.card_deck.length);
+              gameSetting.push(card_deck[setR]); card_deck.splice(setR,1);
+            }console.log(gameSetting)
+          }
+        }
+
+    </script>
+</head>
+<body>
+    <button type="button" onclick="card.theorem()">카드정리</button>
+     <button type="button" onclick="gameSet()">게임시작</button>
+     <button type="button" onclick="">콜</button>
+     <button type="button" onclick="button">다이</button>
+
+
+
+</body>
+</html>
