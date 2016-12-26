@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript">
+    function goCalc(){
+      var total =0;
+       for(var i = 1; i < 11; i++){
+         total += eval(document.getElementById("A"+i ).value);
+       }
+      document.getElementById('result').innerHTML=total;
+    }
+  </script>
+</head>
+<body>
+  <input type="text" id="A1"value=""><br />
+  <input type="text" id="A2"value=""><br />
+  <input type="text" id="A3"value=""><br />
+  <input type="text" id="A4"value=""><br />
+  <input type="text" id="A5"value=""><br />
+  <input type="text" id="A6"value=""><br />
+  <input type="text" id="A7"value=""><br />
+  <input type="text" id="A8"value=""><br />
+  <input type="text" id="A9"value=""><br />
+  <input type="text" id="A10"value=""><br />
+
+  <input type="button" name="" value="계산하기" onclick='goCalc()'><br />
+  <div id="result"style="background-color: powderblue;width:100px;height:100px;"></div>
+</body>
+</html>

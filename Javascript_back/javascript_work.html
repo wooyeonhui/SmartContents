@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript">
+    function goCalc(){
+      var k = document.calForm.kor.value;
+      var e = document.calForm.eng.value;
+      var m = document.calForm.math.value;
+      var t = eval(k) + eval(e) + eval(m);
+      var a = eval(t) / eval(3);
+
+      document.calForm.total.value=t;
+      document.calForm.avg.value=a;
+    }
+  </script>
+</head>
+<body>
+  <form name='calForm'>
+    이름 : <input type="text" name="name" ><br />
+    국어 : <input type="text" name="kor" ><br />
+    영어 : <input type="text" name="eng" ><br />
+    수학 : <input type="text" name="math" ><br />
+<input type="button" value='계산하기'onclick='goCalc()'><br/>
+    총점 : <input type="text" name="total" ><br />
+    평균 : <input type="text" name="avg" ><br />
+
+
+
+  </form>
+</body>
+</html>
