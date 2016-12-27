@@ -1,20 +1,10 @@
 package ex2;
 
-import java.util.Scanner;
-
 public class TestMain {
 	public static void main(String[] args) {
+		System.out.println("이름 : 우연희");
+		System.out.println("010-0000-0000");
+		System.out.println("주소 : 서울시 강동구 둔촌동 777번지");
 		
-		int name;
-		int phone;
-		int address;
-		
-		Scanner sc = new Scanner(System.in);
-		System.out.print("이름 : ");
-		name = sc.nextInt();
-		System.out.print("전화번호 : ");
-		phone = sc.nextInt();
-		System.out.println("주소 : ");
-		address = sc.nextInt();
 	}
 }
