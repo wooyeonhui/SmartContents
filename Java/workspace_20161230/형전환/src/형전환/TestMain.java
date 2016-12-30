@@ -1,0 +1,29 @@
+package 형전환;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		String a ="123";
+		int b;
+		float c;
+		double d;
+		
+		b = Integer.parseInt(a);
+		c = Float.parseFloat(a);
+		d = Double.parseDouble(a);
+		
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
+		//다른 타입을 String으로 전환하기
+		a = String.valueOf(b);
+		System.out.println(a);
+		a = String.valueOf(c);
+		System.out.println(a);
+		a = String.valueOf(d);
+		System.out.println(a);
+
+	}
+
+}

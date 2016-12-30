@@ -1,0 +1,15 @@
+
+public class EscapeTest {
+   public static void main(String[] args) {
+        System.out.println("\"Hello\"");
+        
+        System.out.println("역슬래쉬 출력하기 : \\");
+        
+        System.out.println("100%");
+        /*자바 1.6부터 추가된 출력함수가 있음
+         * printf 함수 사용하기
+         */
+        System.out.println("%d %s",23,"문자열");
+        
+    }
+}

@@ -1,0 +1,26 @@
+package 문자;
+
+public class TestMain {
+            public static void main(String[] args) {
+				System.out.println('A');
+				System.out.println((int)'A');
+				System.out.println((int)'0');
+				System.out.println(0);
+				
+				int a = 10; 
+				System.out.println(a);
+				a=0x15; //16진수
+				System.out.println(a);
+		        a=0b1100; //2진수
+		        System.out.println(a);
+		        
+		        System.out.println("이스케이프 문자 출력");
+		        System.out.println("1. abcdefg\bhijklmn");
+		        System.out.println("1. abcdefg\thijklmn");
+		        System.out.println("1. abcdefg\nhijklmn");
+		        System.out.println("1. abcdefg\fhijklmn");
+		        System.out.println("1. abcdefg\rhijklmn");
+		        System.out.println("1. abcdefg\hijklmn");
+		        
+			}
+}

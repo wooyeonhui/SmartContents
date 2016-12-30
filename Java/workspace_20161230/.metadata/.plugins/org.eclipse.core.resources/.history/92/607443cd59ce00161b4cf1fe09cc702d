@@ -1,0 +1,8 @@
+package work;
+
+public class TestMain {
+  public static void main(String[] args) {
+	int F;
+	Scanner sc = new Scanner(System.in);
+  }
+}

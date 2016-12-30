@@ -1,0 +1,18 @@
+
+public class TestMain {
+ public static void main(String[] args) {
+	/*
+	 * 1. 입력 : 거슬러줘야 할 금액 
+	 * 2. 결과 : 
+	 *           50000, 10000, 5000, 1000, 500 ,100, 50, 10원의 갯수
+	 *
+	 */
+	 //1. 변수 선언
+	 int inputMoney;
+	 int m50000, m10000, m5000, m1000, m500, m100, m50, m10;
+	 //2. 입력받기
+	 Scanner sc = new Scanner(System.in);
+	 System.out.println("거스름돈 : ");
+	 inputMoney = sc.nextInt();
+ }
+}

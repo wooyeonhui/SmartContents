@@ -1,0 +1,36 @@
+package switch_ex;
+
+import java.util.Scanner;
+
+/*
+ * 계절, 계절별 음식 출력하기
+ */
+public class TestMain {
+	public static void main(String[] args) {
+		String season;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("계절 : ");
+		season = sc.nextLine();
+		
+		switch(season)
+		{
+		case "봄":
+		  System.out.println("냉이,도다리,쭈꾸미");
+		   break;
+		case "여름":
+		  System.out.println("냉면,오징어,복숭아");
+		   break;		   
+		case "가을":
+		  System.out.println("밤,전어,고등어");
+		   break;		   
+		case "겨울":
+		  System.out.println("굴,새우,탕");
+		   break;
+        default:
+        	 System.out.println("쪼옴~");
+		     break;
+		}
+	}
+
+}

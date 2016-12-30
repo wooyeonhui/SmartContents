@@ -1,0 +1,28 @@
+package work;
+
+import java.util.Scanner;
+
+public class TestMain {
+  public static void main(String[] args) {
+	double F1;
+	double C1;
+	double F2;
+	double C2;
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("¼·¾¾ : ");
+	C1 = sc.nextInt();
+	
+	F1 = (C1*1.8) + 32;
+	
+	System.out.println("¼·¾¾ : "+C1+"     È­¾¾ : "+F1);
+	
+	System.out.println("È­¾¾ : ");
+	F2 = sc.nextInt();
+	
+	C2 = (F2 -32) / 1.8;
+	
+	System.out.println("È­¾¾ : "+F2+"     ¼·¾¾ : "+C2);
+	
+  }
+}

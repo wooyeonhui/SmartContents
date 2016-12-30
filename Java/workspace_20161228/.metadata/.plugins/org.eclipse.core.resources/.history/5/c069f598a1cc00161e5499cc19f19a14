@@ -1,0 +1,20 @@
+package textinput;
+
+import java.util.Scanner;
+
+public class TestMain {
+	public static void main(String[] atgs){
+		String name;
+		String phone;
+		String address;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("이름 : ");
+		name = sc.next()
+	    System.out.println("전화번호 : ");
+		
+		
+	}
+
+}

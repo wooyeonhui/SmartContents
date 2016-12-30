@@ -1,0 +1,14 @@
+package work;
+
+import java.util.Scanner;
+
+public class TestMain {
+  public static void main(String[] args) {
+	int F;
+	int C;
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("¼·¾¾ : ");
+	C = sc.nextInt();
+  }
+}

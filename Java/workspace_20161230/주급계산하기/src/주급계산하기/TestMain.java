@@ -1,0 +1,39 @@
+package 주급계산하기;
+
+import java.util.Scanner;
+
+public class TestMain {
+	public static void main(String[] args) {
+		String name; //이름
+		int weekTime;//근무시간
+		int perPay;  //시간당 급여액
+		int weekPay; //주급
+		int overPay; //연장
+		//초과분에 대해서 50%를 가산한 금액
+		Scanner sc = new Scanner(System.in);
+				
+	   System.out.println("이름 : ");
+	   name = sc.nextLine();
+	   
+	   System.out.println("근무시간 : ");
+	   weekTime = sc.nextInt();
+	   
+	   System.out.println("시간당 급여액 : ");
+	   perPay = sc.nextInt();
+	   
+	   weekPay = weekTime * perPay;
+	   
+	   overPay =0;
+	   if(weekTime>40)
+	   {
+		   overPay = (weekTime-40)*perPay/2;	   
+	   }				   
+	   
+	   weekPay = weekPay + overPay;
+	   
+		System.out.println(name + "님의 주급은" + weekPay + "원 입니다.");
+	   
+	   
+	}
+
+}
