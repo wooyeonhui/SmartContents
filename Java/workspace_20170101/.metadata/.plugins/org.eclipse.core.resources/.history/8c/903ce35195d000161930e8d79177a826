@@ -1,0 +1,29 @@
+package jan2;
+
+import java.util.Scanner;
+
+public class SumFor_2 {
+
+	public static void main(String[] args) {
+		/*
+		 * 정수 10개를 입력받아서 짝수와 홀수의 평균을 구하기 
+		 * 짝수만 10개가 들어올 수 도 있고 홀수만 10이 들어올 수 도있다.
+		 */
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int getNumber;//입력 받는 변수
+		int EvenSum;//짝수 합
+        int OddSum;//홀수 합
+        int i;
+        
+        for(i=1; i<=10; i++)
+        {
+        	System.out.println(i+"번째 정수 입력");
+        	getNumber
+        }
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package jan2;
+
+import java.util.Scanner;
+
+public class SumFor_1 {
+
+	public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       
+       int count=0;
+       int a;
+       int start=1;
+       int end=10;
+       int inc=1;
+       int i=0;
+       
+       for(i=start; i<=end; i+=inc){
+       System.out.println("정수를 입력하세요 : ");
+       a = sc.nextInt();
+         if( a%2 == 0 )
+         {
+        	 System.out.println("짝수나왔다!"+a);
+             System.out.println("짝수의 갯수 : "+count+1);
+         }
+         
+       }
+	}
+
+}
