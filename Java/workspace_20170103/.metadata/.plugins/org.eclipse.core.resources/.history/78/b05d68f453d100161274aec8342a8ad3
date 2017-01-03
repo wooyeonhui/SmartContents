@@ -1,0 +1,17 @@
+package jan3;
+
+public class Break {
+  public static void main(String[] args) {
+	i=1;
+	for(;;)
+	{
+		System.out.println(i);
+		i++;
+		if(i>=10)
+		{
+			break;
+		}
+	}
+	System.out.println("ºüÁ® ³ª¿È : "+¤Á);
+}
+}
