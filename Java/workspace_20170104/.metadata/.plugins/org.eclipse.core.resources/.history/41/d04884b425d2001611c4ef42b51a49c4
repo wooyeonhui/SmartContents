@@ -1,0 +1,21 @@
+package jan4;
+
+public class Function_2 {
+	
+	static void displayStar(int lineCnt, int starCnt)
+	{
+		int i,j;
+		for(i=1; i<=lineCnt; i++)
+		{
+			for(j=1; j<=starCnt; j++)
+			{
+				System.out.println("*");
+			}
+			System.out.println();
+		}
+	}
+	public static void main(String[] args){
+		
+	}
+
+}

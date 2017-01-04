@@ -1,0 +1,32 @@
+package pack;
+/*
+ * class 앞에 public 의 의미 누구나 다 
+ * 사용가능하다 각자 다른 폴더(패키지)에 있는 
+ * 클래스간에 서로 접근못함. public 쓴것만 접근 가능하다
+ * 
+ * 파일하나에 public 이 허용되는 클래스는 하나만 가능하고
+ * 이 클래스명이 파일명과 일치해야 한다
+ */
+class Person
+{
+	String name;
+	int age;
+	
+	void output()
+	{
+		System.out.println("이름 : " + name);
+		System.out.println("나이 : " + age);
+	}
+}
+public class TestMain {
+	public static void main(String[] args) {
+	
+		Person p1 = new Person(); //객체 만들기
+		
+		p1.name = "홍길동";
+		p1.age = 23;
+		
+		System.out.println(p1.name);
+		System.out.println(p1.age);
+	}
+}

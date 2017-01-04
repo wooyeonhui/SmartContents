@@ -28,7 +28,7 @@ public class TestMain_2 {
 	 }
 	 //Ãâ·Â
 	
-	 for(i=0; i<MAX; i++)
+	 for(i=0; i<MAX-1; i++)
 	 {
 		 for(j=0; j<i; j++)
 		 {			

@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+D:\web study\SmartContents\Java\workspace_20170104\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4236628283.index
+2270408536.index
+3347147343.index
+3967486512.index
+970019325.index
