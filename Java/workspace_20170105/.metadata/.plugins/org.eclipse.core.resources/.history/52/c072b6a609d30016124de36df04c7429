@@ -1,0 +1,8 @@
+package BaseballGame;
+
+public class Main {
+  public Main() {
+  BaseballGame bb = new BaseballGame();
+  bb.BaseballGame();
+  }
+}

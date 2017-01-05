@@ -1,0 +1,7 @@
+package BaseballGame;
+
+public class baseballGame {
+  private void mian() {
+   
+ }
+}

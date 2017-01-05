@@ -1,0 +1,25 @@
+package bascketball;
+
+import java.util.Random;
+
+public class GameSet {
+  public static void main(String[] args) {
+	final int MAX = 3; //·£´ý¼ö »Ì±â 
+	int []setRan = new int[MAX];
+	int curCnt=0;
+	
+	
+	//·£´ý ¼ö »Ì±â
+     void start()
+	{
+		Random rand = new Random();
+		curCnt=0;
+		while(curCnt<MAX)
+		{
+			int temp = rand.nextInt(MAX)+1;
+		}
+		
+	} 
+	
+}
+}

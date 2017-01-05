@@ -1,0 +1,19 @@
+//디폴트 패키지 - 패키지가 없는 상태
+public class TestMain {
+/*
+ * Acompany 패키지 만들고 거기에 System 클래스를 넣으면
+ * Acompany.System
+ * Bcompany 패키지 만들고 거기에 System 클래스를 넣으면
+ * Bcompany.System
+ * 
+ * 패키지 이름을 어떻게? 회사 홈페이지 도메인
+ * 도메인을 뒤집어서 만들고 도메인 영역은 비워놓고 그 
+ * 아래에 새로 패키지를 만들어서 클래스를 둔다
+ * himedia.co.kr
+ * 
+ * kr.co.himedia
+ */
+	public static void main(String[] args) {
+		
+	}
+}

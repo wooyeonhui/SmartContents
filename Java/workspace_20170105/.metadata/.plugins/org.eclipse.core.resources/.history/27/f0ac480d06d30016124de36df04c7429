@@ -1,0 +1,32 @@
+package BaseballGame;
+
+import java.util.Random;
+
+public class BaseballGame {
+
+	public static void main(String[] args) {
+	//공통의 변수들(멤버 변수)
+	final int MAX=3;
+	int []computer = new int[MAX];
+	int []person = new int[MAX];
+	int strikeCnt=0;//스트라이크 개수 저장할 변수
+	int ballCnt=0;//볼 개수 저장 변수
+	
+	//게임을 시작하면 컴퓨터가 숫자 3개를 랜덤하게 골라 배열에 넣는일 할 함수
+	void initGame()
+	{
+		Random rand = new Random();
+		for(int i=0; i<3; i++)
+		{
+			computer[i] = rand.nextInt(10);//0~9
+		}	
+	} 
+	//컴퓨터가 생각한 값하고, 사람이 입력한 값 비교해서 스트라이크나
+	//볼 갯수를 구할 함수
+	void checkValue()
+	{
+		strikeCnt=0;
+		ballCnt=0;
+	}
+
+}

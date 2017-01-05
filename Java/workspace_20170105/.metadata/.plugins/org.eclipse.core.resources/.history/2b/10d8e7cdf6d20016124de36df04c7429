@@ -1,0 +1,56 @@
+package bascketball;
+
+import java.util.Random;
+import java.util.Scanner;
+ 
+public class GameSet {
+	
+    Scanner sc = new Scanner(System.in);
+    
+	private final int MAX = 3; //랜덤수 뽑기 
+	private int[] setRan = new int[MAX];
+	private int []User = new int[MAX];
+	private int curCnt;
+	
+	//랜덤 수 뽑기
+    public void start()
+	{
+		Random rand = new Random();
+		for(int i = 0; i < MAX; i++)
+		{	setRan[i] = rand.nextInt(MAX)+1;
+			curCnt++;
+		}
+	}	
+	
+  //사용자 숫자 입력하기
+    public void UserSet(){
+	  User = new int[3]; //사용자 입력 숫자
+	  for(int i=0; i<3; i++)
+	  {
+		  System.out.println(i+"번째 숫자 입력 : ");
+		  User[i] = sc.nextInt();
+		  }
+	  }
+    
+    //일치 확인 
+   public boolean isExist(int key)
+    {
+    	for(int i=0; i<MAX; i++)
+    	{
+    		if( setRan[i] == User[i])
+    		{
+    			System.out.println("스트라잌흐!");
+    		}else if( setRan == User )
+    		{
+    			System.out.println("볼");
+    		}else
+    		{
+    			System.out.println("아웃");
+    		}
+    		
+    	}
+		return false;
+    }
+  
+
+}

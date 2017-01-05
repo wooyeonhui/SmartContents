@@ -1,0 +1,12 @@
+package BaseballGame;
+
+public class BaseballGame {
+
+	public static void main(String[] args) {
+	//공통의 변수들(멤버 변수)
+	final int MAX=3;
+	int []computer = new int[MAX];
+	int []person = new int[MAX];
+	}
+
+}

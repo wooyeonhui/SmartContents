@@ -1,0 +1,31 @@
+package bascketball;
+
+import java.util.Random;
+import java.util.Scanner;
+ 
+public class GameSet {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+	private final int MAX = 3; //·£´ý¼ö »Ì±â 
+	private int []setRan = new int[MAX];
+	private int curCnt;
+	
+	
+	//·£´ý ¼ö »Ì±â
+    public void start()
+	{
+		Random rand = new Random();
+		curCnt=0;
+		while(curCnt<MAX)
+		{
+			int temp = rand.nextInt(MAX)+1;
+			curCnt++;
+		}
+		
+	} 
+    
+    //ÀÏÄ¡ È®ÀÎ 
+
+
+
+}
