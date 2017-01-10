@@ -1,0 +1,21 @@
+package 주급계산하기Back;
+
+public class WeekPayManager {
+    final int MAX=3;
+    WeekPayData []data = new WeekPayData[MAX];
+    //객체가 들어갈 방만 3개 만들었음 
+    //객체는 아직 안만들어짐
+    int count=0;
+    Scanner sc = new Scanner(System.in);
+    
+    public void input()
+    {
+    	int i=count; //처음에 0부터 시작한다.
+    	String again; //계속할지 물어본다
+    	do
+    	{
+    		System.out.println("이름 : ");
+    		
+    	}
+    }
+}

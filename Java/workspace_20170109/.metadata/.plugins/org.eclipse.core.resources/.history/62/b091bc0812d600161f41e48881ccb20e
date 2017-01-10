@@ -1,0 +1,18 @@
+package GradeProcessing;
+
+public class TestMain {
+public class GradeProcessing{
+	final int MAX=3;
+	String []name=new String[MAX];
+    String []idnum=new String[MAX];
+    int []write = new int[MAX]; //필기
+    int []word = new int[MAX]; //워드
+    int []ppt = new int[MAX]; 
+    int []spread = new int[MAX];
+    int []total = new int[MAX];
+    String []grade = new String[MAX];
+    
+ }
+  GradeProcessing gp = new GradeProcessing();
+
+}

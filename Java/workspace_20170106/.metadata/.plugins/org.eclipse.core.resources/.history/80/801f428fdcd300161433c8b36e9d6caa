@@ -1,0 +1,12 @@
+package Àº´Ð¼º;
+
+public class TestMain {
+    public static void main(String[] args) {
+		//°´Ã¼ ¹è¿­
+    	
+    	Student []st = new Student[2];
+    	
+    	st[0].setName("±èÀçµ¿");
+    	st[1].setName("À¯½Ã¹Î");
+	}
+}

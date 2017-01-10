@@ -1,0 +1,27 @@
+package 성적처리;
+
+public class TestMain {
+	final int MAX=3;
+	String []name=new String[MAX];
+	String []idnum=new String[MAX];
+	int []write=new int[MAX]; //필기
+	int []word =new int[MAX]; //워드 
+	int []ppt=new int[MAX]; 
+	int []spread=new int[MAX];
+	int []total=new int[MAX];
+	String []grade = new String[MAX];
+	int count=0; // 실제읽은개수
+	void input()
+	{}
+	void process()
+	{}
+	void output()
+	{}
+	
+	public static void main(String[] args) {
+		TestMain tm = new TestMain();
+		tm.input();
+		tm.process();
+		tm.output();
+	}
+}

@@ -1,0 +1,5 @@
+package ObjectGradeProcessing;
+
+public class ScoreManager {
+  final int MAX=3; 
+}

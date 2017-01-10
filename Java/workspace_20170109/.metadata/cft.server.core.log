@@ -1,0 +1,2 @@
+월 1월 9 2017 11:26:40 오전 - CloudFoundryServer.modifyModules(...): add: { GradeProcessing [org.eclipse.jst.jee.server:GradeProcessing/jst.web]} remove: {}
+월 1월 9 2017 11:26:41 오전 - CloudFoundryServerBehaviour.publishModule(...): ADDED { GradeProcessing [org.eclipse.jst.jee.server:GradeProcessing/jst.web]}

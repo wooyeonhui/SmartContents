@@ -1,0 +1,10 @@
+package WeekPayProcessing;
+
+public class PayManager {
+	int hourWage = 10000;
+	final int MAX=1;
+	PayData []data = new PayData[MAX];
+	
+	Scanner sc = new Scanner(System.in);
+
+}

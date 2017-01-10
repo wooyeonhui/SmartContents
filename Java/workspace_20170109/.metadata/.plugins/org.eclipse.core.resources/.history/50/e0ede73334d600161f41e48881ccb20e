@@ -1,0 +1,6 @@
+package WeekPayProcessing;
+
+public class PayManager {
+	int hourWage = 10000;
+
+}

@@ -1,0 +1,8 @@
+package 己利贸府_按眉瘤氢;
+
+public class ScoreManager {
+	final int MAX=3;
+	ScoreData []data = new ScoreData[MAX];
+	
+	
+}

@@ -1,0 +1,30 @@
+package GradeProcessing;
+
+import java.util.Scanner;
+
+public class TestMain {
+
+	
+
+public static void main(String[] args) {
+	
+	GradeProcessing gp1 = new GradeProcessing();
+	GradeProcessing gp2 = new GradeProcessing();
+	GradeProcessing gp3 = new GradeProcessing();
+	
+}  
+
+	Scanner sc =new Scanner(System.in);
+	
+	void input()
+	{
+		for(int i=0; i<3; i++)
+		{
+			System.out.println("수험번호 : ");
+		    (gp+i).name = sc.nextLine();
+			System.out.println("수험번호 : ");
+			
+			
+		}
+	}
+}

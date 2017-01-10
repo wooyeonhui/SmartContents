@@ -1,0 +1,12 @@
+package ObjectGradeProcessing;
+
+public class ScoreManager {
+  final int MAX=3; 
+  ScoreData []data = new ScoreData[MAX];
+  
+  Scanner sc = new Scanner(System.in);
+  void input()
+  {
+	  for
+  }
+}

@@ -1,0 +1,12 @@
+package 주급계산하기Back;
+
+public class WeekPayMain {
+	public static void main(String[] args) {
+		
+	
+	WeekPayManager manager = new WeekPayManager();
+//	manager.append();
+	manager.input();
+	manager.output();
+}
+}

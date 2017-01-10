@@ -1,0 +1,33 @@
+package GradeProcessing;
+
+import java.util.Scanner;
+
+public class TestMain {
+public class GradeProcessing{
+	final int MAX=3;
+	String name;
+    String idnum;
+    int write ; //필기
+    int word ; //워드
+    int ppt; 
+    int spread;
+    int total;
+    String grade ;
+    
+ }
+
+  
+
+	Scanner sc =new Scanner(System.in);
+	
+	void input()
+	{
+		for(int i=0; i<3; i++)
+		{
+		 GradeProcessing gp = new GradeProcessing();
+			System.out.println("수험번호 : ");
+			
+			
+		}
+	}
+}

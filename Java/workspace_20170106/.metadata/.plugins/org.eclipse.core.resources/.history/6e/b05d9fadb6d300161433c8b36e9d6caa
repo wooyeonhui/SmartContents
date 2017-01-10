@@ -1,0 +1,14 @@
+package StringClass;
+
+public class Ex {
+public static void main(String[] args) {
+	//String 생성 실습 
+	String str1 = "hello";
+	String str2 = new String("java");
+    char[] arr = {'g','o','o','d'};
+    String str3 = new String(arr);
+    String str4 = new String();
+    str4 = str1 + " " + str2 + " " + str3;
+    System.out.println(str4);
+}
+}
