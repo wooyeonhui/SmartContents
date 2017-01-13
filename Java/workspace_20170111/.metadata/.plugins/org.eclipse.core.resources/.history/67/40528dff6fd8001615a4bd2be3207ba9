@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body> 
+  <form name="form" method="post">
+     아이디 : <input type= "text" name="userid">
+     <br/>
+     패스워드 : <input type= "password" name="password">
+     <br/>
+     <input type= "submit" value="보내기">
+    <br/>
+     
+     get 전송방식 : 서버에 보낸 정보가 화면 url에 모두 나타난다
+                  1024바이트 이내의 간단한 정보를 보낼때만 사용된다.
+                  
+    <br/> 
+     post 전송 방식 : 서버에 보내는 정보를 감춰서 보낸다.
+                    
+  </form>
+</body>
+</html>

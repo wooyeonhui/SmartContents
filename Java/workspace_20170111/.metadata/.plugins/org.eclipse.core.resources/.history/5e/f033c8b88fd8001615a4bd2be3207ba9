@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Insert title here</title>
+<script>
+function goSend()
+{
+	var frm = document.myform; //폼객체를 가져온다
+	if(frm.x.value=="")
+		{
+		alert("구구단을 입력하세요");
+		frm.x.focus();
+		return false;//이거 안해주면 안된다.
+		}
+	frm.submit(); //서버로 전송하기
+	}
+</script>
+</head>
+<body>
+<form name="myform" method="post" action="multyReceive.jsp">
+    <h2>구구단 만들기</h2>
+    <span>구구단 만들 단 : </span>
+    <input type="text" name="x">
+    <input type="button" onclick="goSend()" value="보내기">
+    <input type="submit" value="구구단 생성!">
+    
+</form>
+</body>
+</html>

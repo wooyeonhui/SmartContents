@@ -1,0 +1,42 @@
+@media screen and (max-width:769px){
+  body{
+    background-image: url(@mobileBg);
+    background-position: center center;
+  }
+  header{
+    height:55px;
+      nav{
+        .menu{
+          display: block;
+        }
+        ul{
+          width: 200px;
+          position:absolute;
+          display: none;
+          li{
+            float: none;
+            outline: 1px solid gray;
+            display: block;
+            height:55px;
+            line-height: 55px;
+            a{
+              transition: .1s;
+              border-left: 0px @base-color solid ;
+              &:hover{
+                border-top: 0;
+                border-left: 5px @base-color solid;
+              }
+            }
+          }
+        }
+      }
+  }
+  section{
+    .biglogo{
+      top:10%;
+      left:50%;
+      margin-left: -160px;
+      transform: scale(0.8);
+    }
+  }
+}
